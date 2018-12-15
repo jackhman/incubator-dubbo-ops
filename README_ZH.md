@@ -17,7 +17,9 @@ English version goes [here](README.md).
 
 ### 后端部分
 
-* 标准spring boot工程  
+* 标准spring boot工程
+* **注意** 本分支依赖Dubbo2.7-SNAPSHOT版本，该Dubbo版本还未正式发布，因此如果发现依赖方面的错误，请清空本地库中的dubbo2.7相关文件
+* 在项目根目录(incubator-dubbo-ops)第一次构建需要强制更新: `mvn -Dmaven.test.skip=true clean -U package`   
 
 
 ### 生产环境配置  
